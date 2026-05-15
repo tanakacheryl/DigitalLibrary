@@ -21,43 +21,110 @@ This project consists of a web-based digital library management system developed
 - <b>Sublime Text</b> 
   
 
-<h2>Program walk-through:</h2>
+<h1 align="center">📚 Library Management System</h1>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+A web-based Library Management System built using PHP, MySQL, and XAMPP.
 </p>
 
+---
+
+<h2>🖥️ Frontend</h2>
+
+<h3>Home Page</h3>
+<p align="center">
+Browse available books and navigate the system.<br/><br/>
+<img src="https://i.imgur.com/your-homepage-image.png" width="80%" alt="Home Page"/>
+</p>
+
+<br/>
+
+<h3>Book List / Catalog</h3>
+<p align="center">
+View all books available in the library.<br/><br/>
+<img src="https://i.imgur.com/your-booklist-image.png" width="80%" alt="Book Catalog"/>
+</p>
+
+<br/>
+
+<h3>Reservation Page</h3>
+<p align="center">
+Reserve books for borrowing.<br/><br/>
+<img src="https://i.imgur.com/your-reservation-image.png" width="80%" alt="Reservation Page"/>
+</p>
+
+---
+
+<h2>⚙️ Backend</h2>
+
+<h3>index.php</h3>
+<p align="center">
+Main entry point of the system handling routing and dashboard loading.<br/><br/>
+<img src="https://i.imgur.com/your-index-image.png" width="80%" alt="index.php"/>
+</p>
+
+<br/>
+
+<h3>reserve.php</h3>
+<p align="center">
+Handles book reservation logic and updates the database.<br/><br/>
+<img src="https://i.imgur.com/your-reserve-image.png" width="80%" alt="reserve.php"/>
+</p>
+
+<br/>
+
+<h3>borrowed_books.php</h3>
+<p align="center">
+Displays all books currently borrowed by users.<br/><br/>
+<img src="https://i.imgur.com/your-borrowed-books-image.png" width="80%" alt="Borrowed Books"/>
+</p>
+
+---
+
+<h2>🗄️ Database</h2>
+
+<h3>Database Tables</h3>
+<p align="center">
+Structure of the database including users, books, and reservations tables.<br/><br/>
+<img src="https://i.imgur.com/your-database-schema.png" width="80%" alt="Database Tables"/>
+</p>
+
+<br/>
+
+<h3>Book Records</h3>
+<p align="center">
+Sample data stored in the books table.<br/><br/>
+<img src="https://i.imgur.com/your-book-records.png" width="80%" alt="Book Records"/>
+</p>
+
+---
+
+<h2>🧰 Server</h2>
+
+<h3>XAMPP Server</h3>
+<p align="center">
+Local development environment used to run the project (Apache + MySQL).<br/><br/>
+<img src="https://i.imgur.com/your-xampp-image.png" width="80%" alt="XAMPP Server"/>
+</p>
+
+---
+
+<h2>🚀 How to Run</h2>
+
+<ol>
+  <li>Install XAMPP</li>
+  <li>Place project folder inside <code>htdocs</code></li>
+  <li>Start Apache and MySQL in XAMPP</li>
+  <li>Import database into phpMyAdmin</li>
+  <li>Run project in browser: <code>http://localhost/your-project-folder</code></li>
+</ol>
+
+---
+
 <!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
+```diff
+- red text (errors)
++ green text (adds)
+! orange text (warnings)
+# gray text (notes)
+@@ purple bold text (important)@@
