@@ -104,7 +104,7 @@ Sample data stored in the books table.<br/><br/>
 <h3>XAMPP Server</h3>
 <p align="center">
 Local development environment used to run the project (Apache + MySQL).<br/><br/>
-<img src="./images/xampp.png" width="80%" alt="XAMPP Server"/>
+<img src="./images/XAMPP.png" width="80%" alt="XAMPP Server"/>
 </p>
 
 ---
