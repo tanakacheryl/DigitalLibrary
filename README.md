@@ -34,7 +34,7 @@ A web-based Library Management System built using PHP, MySQL, and XAMPP.
 <h3>Home Page</h3>
 <p align="center">
 Browse available books and navigate the system.<br/><br/>
-<img src="images/home.png" width="80%" alt="Home Page"/>
+<img src="./images/home.png" width="80%" alt="Home Page"/>
 </p>
 
 <br/>
@@ -42,7 +42,7 @@ Browse available books and navigate the system.<br/><br/>
 <h3>Book List / Catalog</h3>
 <p align="center">
 View all books available in the library.<br/><br/>
-<img src="images/catalog.png" width="80%" alt="Book Catalog"/>
+<img src="./images/catalog.png" width="80%" alt="Book Catalog"/>
 </p>
 
 <br/>
@@ -50,7 +50,7 @@ View all books available in the library.<br/><br/>
 <h3>Reservation Page</h3>
 <p align="center">
 Reserve books for borrowing.<br/><br/>
-<img src="images/reserved.png" width="80%" alt="Reservation Page"/>
+<img src="./images/reserved.png" width="80%" alt="Reservation Page"/>
 </p>
 
 ---
@@ -60,7 +60,7 @@ Reserve books for borrowing.<br/><br/>
 <h3>index.php</h3>
 <p align="center">
 Main entry point of the system handling routing and dashboard loading.<br/><br/>
-<img src="images/index.png" width="80%" alt="index.php"/>
+<img src="./images/index.png" width="80%" alt="index.php"/>
 </p>
 
 <br/>
@@ -68,7 +68,7 @@ Main entry point of the system handling routing and dashboard loading.<br/><br/>
 <h3>reserve.php</h3>
 <p align="center">
 Handles book reservation logic and updates the database.<br/><br/>
-<img src="images/reserve.png" width="80%" alt="reserve.php"/>
+<img src="./images/reserve.png" width="80%" alt="reserve.php"/>
 </p>
 
 <br/>
@@ -76,7 +76,7 @@ Handles book reservation logic and updates the database.<br/><br/>
 <h3>borrowed_books.php</h3>
 <p align="center">
 Displays all books currently borrowed by users.<br/><br/>
-<img src="images/borrowed_books.png" width="80%" alt="Borrowed Books"/>
+<img src="./images/borrowed_books.png" width="80%" alt="Borrowed Books"/>
 </p>
 
 ---
@@ -86,7 +86,7 @@ Displays all books currently borrowed by users.<br/><br/>
 <h3>Database Tables</h3>
 <p align="center">
 Structure of the database including users, books, and reservations tables.<br/><br/>
-<img src="images/database.png" width="80%" alt="Database Tables"/>
+<img src="./images/database.png" width="80%" alt="Database Tables"/>
 </p>
 
 <br/>
@@ -94,7 +94,7 @@ Structure of the database including users, books, and reservations tables.<br/><
 <h3>Book Records</h3>
 <p align="center">
 Sample data stored in the books table.<br/><br/>
-<img src="images/books_database.png" width="80%" alt="Book Records"/>
+<img src="./images/books_database.png" width="80%" alt="Book Records"/>
 </p>
 
 ---
@@ -104,7 +104,7 @@ Sample data stored in the books table.<br/><br/>
 <h3>XAMPP Server</h3>
 <p align="center">
 Local development environment used to run the project (Apache + MySQL).<br/><br/>
-<img src="images/xampp.png" width="80%" alt="XAMPP Server"/>
+<img src="./images/xampp.png" width="80%" alt="XAMPP Server"/>
 </p>
 
 ---
